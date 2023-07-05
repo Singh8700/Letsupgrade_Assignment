@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>flexbox assignment</title>
+   <style type="text/css" media="all">
+  .container,.cards{
+    width:100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+  width:300px;
+  height:400px;
+  margin:2rem auto;
+  background-color: #eee;
+  border-radius: 2rem;
+  box-shadow: 2px 2px 4px #999;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.card img {
+  width: 200px;
+  height: 150px;
+  margin-bottom: 10px;
+  border-radius: 1.4rem;
+  box-shadow: 2px 2px 10px #111;
+}
+.btn{
+  width:100vw;
+  display: flex;
+  justify-content: flex-end;
+}
+.btn button{
+      padding: 0.4rem 0.8rem;
+      font-size: 16px;
+      margin: 2rem auto;
+      border-radius: 1rem;
+      border: none;
+      transition: all 0.5s;
+    }
+    
+    .btn button a{
+      text-decoration: none;
+      color:#000;
+    }
+    .btn button:hover{
+      border: 2px solid #000;
+      font-weight:900;
+    }
+   </style>
+  </head>
+  <body>
+<div class="container">
+  <h1>FlexBox Assignment</h1>
+  <div class="cards">
+  <div class="card">
+    <h2 >Card 1</h2>
+    <img src="https://picsum.photos/id/237/200/300" alt="Image 1" >
+    <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+  <!-- 2nd card -->
+  <div class="card">
+    <h2 >Card 2</h2>
+    <img src="https://picsum.photos/id/204/200/300" alt="Image 2" >
+    <p class="content">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  </div>
+  <!-- 3rd card -->
+  <div class="card">
+    <h2 >Card 3</h2>
+    <img src="https://picsum.photos/id/251/200/300" alt="Image 3" >
+    <p class="content">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+  </div>
+  <!-- 4th card -->
+  <div class="card">
+    <h2 >Card 4</h2>
+    <img src="https://picsum.photos/id/350/200/300" alt="Image 3" >
+    <p class="content">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+  </div>
+  </div>
+  <div class="btn">
+    <button type="submit">
+      <a href="index.html">
+       Assignment 01
+      </a>
+    </button>
+  </div>
+</div>
+
+  </body>
+</html>
